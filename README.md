@@ -17,7 +17,7 @@ To set up the system locally, follow these steps:
    Download and install XAMPP, a free and open-source cross-platform web server solution stack package developed by Apache Friends. XAMPP includes Apache HTTP Server, MariaDB database, and interpreters for scripts written in the PHP and Perl programming languages.
 
 2. **Download Google File Folder or Download Zip File in GITHUB Repository:**
-   Google Drive : https://github.com/JEIT25/protfolio-crud.git
+   Google Drive : https://drive.google.com/drive/folders/10SZvYbdps1kYbWq8ALD2cTP43mVsDQFK?usp=sharing
    GITHUB REPO: https://github.com/JEIT25/protfolio-crud.git
 
 3. **Import SQL File:**
