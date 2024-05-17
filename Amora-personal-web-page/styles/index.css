@@ -1,0 +1,102 @@
+* {
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2F217E;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+main .banner-img img {
+    max-width: 100%;
+    height: auto;
+}
+
+main .intro-text {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+main .intro-text .greeting-1 {
+    font-size: 1.875rem;
+    font-weight: 500;
+    color: #F86F03;
+    margin-top: 2rem;
+}
+
+main .intro-text .greeting-2 {
+    font-size: 2.188rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+
+main .intro-text #greeting-2 {
+    font-size: 2.188rem;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+main .intro-text .greeting-3 {
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+}
+
+main .intro-text #greeting-3 {
+    font-size: 1.25rem;
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 4rem;
+    }
+
+    main .intro-text {
+        margin: 0;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    main .intro-text .greeting-1,
+    main .intro-text .greeting-2,
+    main .intro-text #greeting-2,
+    main .intro-text .greeting-3,
+    main .intro-text #greeting-3 {
+        font-size: 1.25rem;
+    }
+
+    main .banner-img {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    main .intro-text .greeting-1 {
+        font-size: 1.5rem;
+    }
+
+    main .intro-text .greeting-2,
+    main .intro-text #greeting-2 {
+        font-size: 1.75rem;
+    }
+
+    main .intro-text .greeting-3,
+    main .intro-text #greeting-3 {
+        font-size: 1rem;
+    }
+}

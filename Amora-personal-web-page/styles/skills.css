@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Exo 2", Arial, Helvetica, sans-serif;
+    background-color: #130661;
+    color: white;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+main h1 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    text-decoration: underline white;
+    text-align: center;
+}
+
+.myskills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.myskills div {
+    background-color: white;
+    color: #130661;
+    width: 90%;
+    max-width: 400px;
+    padding: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.myskills h2 {
+    margin-top: 1.8rem;
+}
+
+.myskills div ul {
+    list-style: none;
+    color: #170550;
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+}
+
+#logo {
+    max-width: 80%;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .myskills {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .myskills div {
+        width: 45%;
+        max-width: none;
+        margin: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .myskills div ul {
+        font-size: 1.2rem;
+    }
+}
